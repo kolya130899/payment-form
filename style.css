@@ -1,0 +1,144 @@
+body{
+	background-color: #4c4c4c;
+	background-attachment: fixed;
+}
+form{
+	display: block;
+	box-sizing: border-box;
+	width: 340px;
+	height: 510px;
+	border: 1px solid white;
+	margin: 0 auto;
+	background-color: white;
+}
+.head{
+	display: block;
+	box-sizing:border-box;
+	width: 100%;
+	height: 75px;
+	background-color: #efe4aa;
+	font-weight: bold;
+}
+p{
+	margin:0;
+}
+.left{
+	display: inline-block;
+	box-sizing:border-box;
+	height: 75px;
+	width: 150px;
+	float: left;
+	padding: 25px;
+}
+.right{
+	display: inline-block;
+	box-sizing: border-box;
+	height:75px;
+	width:100px;
+	float: right;
+	font-size: 36px;
+	opacity: 0.5;
+	padding: 20px;
+}
+.h{
+	font-size: 14px;
+	opacity: 0.5;
+}
+.y{
+	font-size: 10px;
+	opacity: 0.5;
+}
+.credit-card{
+	display: block;
+	box-sizing: border-box;
+	width: 290px;
+	height: 80px;
+	margin: 0 auto;
+	opacity: 0.5;
+	margin-top: 45px;
+}
+input[name="card-number"]{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	border: 1px solid black;
+	opacity: 0.7;
+}
+.date{
+	display: block;
+	box-sizing: border-box;
+	width: 290px;
+	height: 80px;
+	margin: 0 auto;
+	font-size: 0;
+	opacity: 0.5;
+}
+legend{
+	font-size: 16px;
+}
+select[name="month"]{
+	width: 175px;
+	height: 40px;
+	padding: 0;
+	border: 1px solid black;
+	opacity: 0.7;
+}
+select[name="year"]{
+	width: 110px;
+	height: 40px;
+	margin-left: 5px;
+	border: 1px solid black;
+	opacity: 0.7;
+}
+.cvv-form{
+	display: block;
+	box-sizing: border-box;
+	width: 290px;
+	height: 80px;
+	margin: 0 auto;
+	opacity: 0.5;
+
+}
+input[name="cvv"]{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	border: 1px solid black;
+	opacity: 0.7;
+}
+
+
+button[type="submit"]{
+	display: block;
+	width: 290px;
+	height: 50px;
+	color: white;
+	background-color: #26b167;
+	margin: 0 auto;
+	border: none;
+	font-weight: bold;
+	font-size: 22px;
+}
+button[type="reset"]{
+	display: block;
+	width: 290px;
+	height: 50px;
+	background: none;
+	border: 0;
+	margin: 0 auto;
+	opacity: 0.5;
+}
+hr{
+	opacity:0.5;
+	margin-bottom: 30px;
+}
+button[type="submit"]:hover{
+	border: 2px solid grey;
+	cursor: pointer;
+}
+button[type="reset"]:hover{
+font-weight:bold;
+cursor: pointer;
+}
+
